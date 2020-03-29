@@ -1,7 +1,9 @@
 # Circular Fashion Movement
 
 ![P3 Challenge](https://imgur.com/FtLC03p.png)
-![P2 Project](https://github.com/JordisGithub/fashion-app/blob/master/src/Images/AdobeStock_239369226.png)
+![P2 Project](https://github.com/JordisGithub/fashion-app/blob/master/src/Images/AdobeStock_239369226.png =250px)
+
+<img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/AdobeStock_239369226.png" width="250">
 
 ## Table of Contents
 
