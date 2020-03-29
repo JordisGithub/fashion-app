@@ -7,39 +7,26 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
-  - [Project Team](#project-team)
-  - [Project Inspiration](#project-inspiration)
-  - [Project Permissions](#project-permissions)
-- [Design](#design)
-  - [Sitemap](#sitemap)
-  - [Wireframes](#wireframes)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-  - [Branding](#branding)
-- [Development](#development)
-  - [Functional Goals](#functional-goals)
-    - [MVP](#mvp)
-    - [Post-MVP](#post-mvp)
-  - [Functional Heirarchy](#functional-heirarchy)
-    - [Repo Structure](#repo-structure)
-    - [Database Table Structure](#express-database-structure)
-    - [React Structure](#react-structure)
-  - [Functional Components](#functional-components)
-    - [Component Breakdown](#component-breakdown)
-    - [Component Timeframes](#component-timeframes)
-    - [Helper Functions](#helper-functions)
-  - [Supporting Libraries](#supporting-libraries)
-- [Project Review](#project-review)
-  - [Code Showcase](#code-showcase)
-  - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
-- [Project Followup](#project-followup)
+  - [Project features](#project-team)
+- [Wireframes](#wireframes)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
+  - [Tablet](#tablet)
+- [API](#api)
+  - [API Details](#api-details)
+- [Functional Goals](#project-review)
+  - [MVP](#code-showcase)
+  - [Post-MVP](#issues-&-resolutions)
+- [Supporting Libraries](#project-review)
+- [React Structure](#react-structure)
+- [Component Breakdown](#component-breakdown)
 
 <br>
 <br>
 
 # Overview
 
-![Logo](https://imgur.com/lEgfC75.png)
+![Logo](https://imgur.com/FtLC03p)
 
 ## Project Description
 
@@ -57,10 +44,6 @@ Curated audience based content:
 - Level up your Laundry game
 - Rent your wardrobe
 
-#### Project Permissions
-
-Digital assets used with full licensing and permission from AdobeStock.
-
 <br>
 <br>
 
@@ -68,13 +51,18 @@ Digital assets used with full licensing and permission from AdobeStock.
 
 #### Desktop
 
-![Age Gate Wireframe](https://imgur.com/Jg7ghQO.png)
-![Home Wireframe](https://imgur.com/XngdLOl.png)
+<!-- ![Age Gate Wireframe](https://imgur.com/Jg7ghQO.png)
+![Home Wireframe](https://imgur.com/XngdLOl.png) -->
 
 #### Mobile
 
-![Mobile Age Gate Wireframe](https://imgur.com/sn2SbP2.png)
-![Mobile Home Wireframe](https://imgur.com/yFe3NH8.png)
+<!-- ![Mobile Age Gate Wireframe](https://imgur.com/sn2SbP2.png)
+![Mobile Home Wireframe](https://imgur.com/yFe3NH8.png) -->
+
+#### Tablet
+
+<!-- ![Mobile Age Gate Wireframe](https://imgur.com/sn2SbP2.png)
+![Mobile Home Wireframe](https://imgur.com/yFe3NH8.png) -->
 
 <br>
 
@@ -88,8 +76,6 @@ How Ably works -> https://www.ably.io/documentation/how-ably-works
 
 <br>
 <br>
-
-# Development
 
 ## Functional Goals
 
@@ -121,7 +107,7 @@ How Ably works -> https://www.ably.io/documentation/how-ably-works
 <br>
 <br>
 
-#### React Structure
+## React Structure
 
 ```
 client

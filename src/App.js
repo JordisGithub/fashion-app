@@ -13,6 +13,8 @@ import Fashion from './Fashion'
   </script> */}
 // api_username = "jordi515"
 
+http://api.shopstyle.com/api/v2/products?pid=uid2449-43257857-69&fts=red+dress&offset=0&limit=10
+
 class App extends Component {
   constructor() {
     super()
