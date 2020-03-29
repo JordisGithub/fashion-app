@@ -1,8 +1,8 @@
-# Barrel-Aged
+# Circular Fashion Movement
 
 ![P3 Challenge](https://imgur.com/P0kiHOf.png)
 
-<p style="text-align: center;"><em>P3 Challenge</em></p>
+<p style="text-align: center;"><em>P2 Challenge</em></p>
 
 ## Table of Contents
 
@@ -43,46 +43,26 @@
 
 ## Project Description
 
-Barrel-Aged is a social forum and review website for whiskey lovers. Through a modern and attractive user interface, convenient browsing and review functionality, and a well-designed database of whiskeys, Barrel-Aged will enable whiskey consumers to discuss, rate, and find their next favorite bottle.
+I want to build a sustainable fashion blog that includes information on sustainability in the fashion inustry.
+This will include a realtime commenting feature to capture feedback and ideas from users visiting the site.
 
-#### Project Team
+#### Project Features
 
-Created, designed, and developed by [Brian Weitz](https://github.com/GuildensternDies), [Misha Kessler](https://github.com/mishakessler), [Naz Babu](https://github.com/n95babu), & [Sean Blanchfield](https://github.com/seanbfield) (Git Czar) for the GA Software Engineering Immersive (May '19 Cohort) Unit 3 Project.
+Curated audience based contect:
 
-Team values, communication preferences, and other group expectations can be found on the [Barrel-Aged google doc](https://docs.google.com/document/d/12Y6Uepqbnv3tS8xEpuS2KN-N3yHhyMqZA6CAT63p2YY/edit).
-
-#### Project Inspiration
-
-Barrel-Aged is modeled with functional inspiration from [Distiller](https://distiller.com/), [GoodReads](https://www.goodreads.com/), [Connosr](https://www.connosr.com/), and [Untappd](https://untappd.com); design and branding inspiration from [Flaviar](https://flaviar.com) and [Touch of Modern](https://www.touchofmodern.com).
+- Sustainable Fashion brands we love
+- Calculate your Fashion Footprint
+- Reduce your fashion waste - Swaps
+- Level up your Laundry game
+- Your old clothes - locate a clothing donation/recylcling center near you
+- Rent your wardrobe
+- Fast Fashion is #Cancelled - the real cost of cheap fast garments
 
 #### Project Permissions
 
-Digital assets used with full licensing and permission from [Death to Stock Photo](https://deathtothestockphoto.com/), [Freepik](https://www.freepik.com/home), and [Unsplash](https://unsplash.com/). Custom digital design and branding by [Misha Kessler](https://www.mishakessler.com).
-
-Digital assets stored locally and on Imgur at [Barrel-Aged Assets Library](https://imgur.com/a/uF7o4YS).
+Digital assets used with full licensing and permission from AdobeStock.
 
 <br>
-<br>
-
-# Design
-
-## ERD Model
-
-![ERD Model V2](https://imgur.com/D7NUsJb.png)
-
-> ERD Model from Sean's [Draw.io](https://www.draw.io).
-
-<br>
-
-## Sitemap
-
-V2
-![Sitemap V2](https://imgur.com/wCQGVt7.png)
-
-<p style="text-align: center;"><em>Sitemap V2</em></p>
-
-> Sitemap from Naz's [GlooMap](https://www.gloomaps.com/sKZtWehfzJ).
-
 <br>
 
 ## Wireframes
@@ -91,46 +71,23 @@ V2
 
 ![Age Gate Wireframe](https://imgur.com/Jg7ghQO.png)
 ![Home Wireframe](https://imgur.com/XngdLOl.png)
-![Landing Wireframe](https://imgur.com/Yk2DLKf.png)
-![User Dashboard Wireframe](https://imgur.com/Njt1euU.png)
-![Whiskey Review Wireframe](https://imgur.com/0wNtEPS.png)
-![Whiskey News Wireframe 1](https://imgur.com/oT2kzL8.png)
-![Whiskey News Wireframe 2](https://imgur.com/Q3qhUvc.png)
 
 #### Mobile
 
 ![Mobile Age Gate Wireframe](https://imgur.com/sn2SbP2.png)
 ![Mobile Home Wireframe](https://imgur.com/yFe3NH8.png)
 
-> Wireframes from Brian's [DocDroid](https://www.docdroid.net/4njapHK/barrelaged.pdf).
-
 <br>
 
-## Branding
+## API
 
 #### Logo & Wordmarks
 
-![Logomark](https://imgur.com/lEgfC75.png)
-
-<p style="text-align: center;"><em>Logomark</em></p>
-
-![Wordmark Light](https://imgur.com/zpkxa4x.png)
-
-<p style="text-align: center;"><em>Wordmark Light</em></p>
-
-![Wordmark Dark](https://imgur.com/zTqQxx9.png)
-
-<p style="text-align: center;"><em>Wordmark Dark</em></p>
-
-#### Bottle Label Mockup
-
-![Label](https://imgur.com/P0kiHOf.png)
-
-<p style="text-align: center;"><em>Print Label</em></p>
-
-![Bottle Mockup](https://imgur.com/nB8w4Xt.png)
-
-<p style="text-align: center;"><em>Bottle Mockup</em></p>
+API from Ably
+Ably’s global realtime service enables Internet enabled devices, such as a browser, phone, server or IoT sensor, to stream data
+in realtime between to any other Internet connected device in milliseconds. The Ably platform brings enterprise scale messaging to
+developers by delivering a highly-available service, message delivery guarantees and low-latencies globally (typically less than 60ms).
+How Ably works -> https://www.ably.io/documentation/how-ably-works
 
 <br>
 <br>
@@ -141,70 +98,39 @@ V2
 
 ### MVP
 
-- User Authentication & Password Hashing
-- Sequelize Resource Tables
-  - Users (first_name, username, email, password, location, fav_whiskey)
-    - FK: User hasMany Reviews, User hasMany Whiskeys
-  - Whiskeys (name, brand, type, description, url_to_image)
-    - FK: Whiskey hasMany Reviews
-  - Reviews (rating, comment)
-    - FK: Review belongsTo Users, Review belongsTo Whiskeys
-- CRUD Functionality on All Resources via Axios
-- Core React Components
-  - Pages
-    - Age Gate
-    - Landing (Hero, Overview, Login, Register)
-    - Homepage (_Index_)(View All Whiskies, Whiskies By Type)
-    - User (_Show_)
-    - Whiskey (_Show_)
-  - Modules
-    - Login Form
-    - Register Form
+- Pages
+
+  - Homepage (_footer_)(\_header)
+  - Age Gate
+  - Landing (Hero, Overview, Login, Register)
+  - User (_Show_)
+  - Whiskey (_Show_)
+
+- Design
+  - CSS Grid.
+  - Implement responsive design on 3 screen sizes (including desktop, tablet and mobile).
+  - Utilize Storybook to create at least 5 reusable components, which are then used in your project;
 
 ### Post-MVP
 
-- Pagination on Whiskeys, Advanced Sorting & Filtering
-- Additional "Favorite" functionality, db table, and corresponding components for viewing and reordering favorite whiskeys from user dashboard.
-- "Like" functionality on reviews, plus sorting reviews by popularity.
-- Third party whiskey API to build out our database, enable "Add new whiskey for review." by user, with autofill.
+- Write more blogs
 
 <br>
 
-## Functional Heirarchy
+## Supporting Libraries
 
-> Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
+- Client-Side
+  - axios
+  - components
+  - react
+  - react-dom
+  - react-router
+  - react-router-dom
+  - react-scripts
+  - styled
 
-#### Repo Structure
-
-```
-barrel-aged
-
-|___ client
-      (Refer to React Structure below.)
-
-|___ routes
-      |___ userRouter.js
-      |___ whiskeyRouter.js
-
-|___ auth.js
-|___ models.js
-|___ resetDb.js
-|___ scratch.js
-|___ seed.js
-|___ server.js
-
-|___ readme.md
-```
-
-#### Express Database Structure
-
-```
-barrelaged_db
-
-|___ reviews
-|___ users
-|___ whiskeys
-```
+<br>
+<br>
 
 #### React Structure
 
@@ -216,160 +142,49 @@ client
       |___ index.html
 
 |___ src
-      |___ assets
+      |___ Images
             |___ images
             |___ graphics
 
       |___ components
-            |___ Header.jsx
-            |___ LoginForm.jsx
-            |___ RegisterForm.jsx
-            |___ ReviewForm.jsx
-            |___ Footer.jsx
+            |___ Header.js
+            |___ CommentBox.js
+            |___ Comment.js
+            |___ Comments.js
+            |___ Footer.js
+            |___ Blog.js
 
       |___ pages
-            |___ AgeGate.jsx
-            |___ Landing.jsx
-            |___ Home.jsx
-            |___ User.jsx
-            |___ Whiskey.jsx
+            |___ Home Page
+            |___ Indv Blog Page
 
-      |___ services
-            |___ api-helper.js
 
       |___ App.css
       |___ App.js
       |___ index.css
       |___ index.js
-      |___ logo.svg
+      |___ logo.tiff
 
 |___ readme.md
 ```
 
 <br>
 
-## Functional Components
-
-#### Component Breakdown
-
-> Components (and a description with a stateful or stateless tag) go here.
-
-| Component   |   State   |                                               Description                                               |
-| ----------- | :-------: | :-----------------------------------------------------------------------------------------------------: |
-| Lorem ipsum | Stateless | Lorem ipsum dolor sit amet, consecteteur adupiscing elit, sed do eiusmod tempor incididunt ut labore... |
-
-#### Component Timeframes
-
-> Time expectation (padded with an extra hour, minimum, to play it safe) go here.
-
-| Component   | Priority | Estimated Time | Actual Time |
-| ----------- | :------: | :------------: | :---------: |
-| Lorem ipsum |   High   |     x hrs      |    y hrs    |
-
-#### Helper Functions
+## Components
 
 > Generic helper functions go here.
 
-| Function |     Description      |
-| -------- | :------------------: |
-| Lorem    | ipsum dolor sit amet |
+| Component  | State/Prop |                                Description                                 |
+| ---------- | :--------: | :------------------------------------------------------------------------: |
+| CommentBox |   props    |                        Holds comment Box properties                        |
+| Comment    |   props    | This component renders a single comment. It accepts the comment as props.  |
+| Comments   |   props    | This component accepts a comments props and renders the Comment component. |
+| App        |   State    |  Adds the comment that was made to state to update comments in realtime.   |
+| Header     |            |                        Holds comment Box properties                        |
+| Footer     |            |                        Holds comment Box properties                        |
+| Blog       |   props    |          This component will be built for the individual artices           |
 
 <br>
-
-## Supporting Libraries
-
-> Packages installed via node go here.
-
-- Server-Side
-
-  - body-parser
-  - cors
-  - express
-  - morgan
-  - nodemon
-  - pg
-  - sequelize
-
-- Authentication
-
-  - bcrypt
-  - jsonwebtoken
-
-- Client-Side
-  - axios
-  - material-ui
-  - react
-  - react-router-dom
-  - react-spring
-  - react-with-gesture
-  - react-star-rating
-
-<br>
-<br>
-
-# Project Review
-
-## Code Showcase
-
-> Any code of which we are proud go here.
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
-<br>
-
-## Issues & Resolutions
-
-> Any code bugs, errors, and fixes go here.
-
-```
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier
-```
-
-```
-**RESOLUTION**: Missing comma after first object in sources {} object
-```
-
-<br>
-<br>
-
-# Project Followup
-
-> Any tasks we would like to revisit after graduation go here.
-
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
-
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
-
-**_INSERT GRAPHIC HERE (include hyperlink in image)_**
-
-# Repository Title Goes Here
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
-
-**Badges will go here**
-
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
-- slack
-- downloads
-- gitter chat
-- license
-- etc.
-
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![Code Climate](http://img.shields.io/codeclimate/github/badges/badgerbadgerbadger.svg?style=flat-square)](https://codeclimate.com/github/badges/badgerbadgerbadger) [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/pulls) [![Gem Version](http://img.shields.io/gem/v/badgerbadgerbadger.svg?style=flat-square)](https://rubygems.org/gems/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
-
-- For more on these wonderful ~~badgers~~ badges, refer to <a href="http://badges.github.io/badgerbadgerbadger/" target="_blank">`badgerbadgerbadger`</a>.
 
 **_INSERT ANOTHER GRAPHIC HERE_**
 

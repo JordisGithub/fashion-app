@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+React
+Be a working, interactice React app, built using create react app.
+Utilize React Router, installed via NPM.
+Have at least 6 separate, rendered components.
+Implement an organized and understandable React file structure.
+Utilize functional and class React components appropriately.
+Use Axios to consume data from an third party API, and render that data in your components. 
+(Remember, many lists of good API's are listed in the #Resources section.)
+Use only React for DOM Manipulation.
+
+Styling
+Be styled with CSS, either using global style sheets or styled components.
+Use flexbox (display: flex) or CSS Grid.
+Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+Linting
+
+Indent properly.
+Utilize high-quality, semantic variable names.
+Follow camelCase and kebab-case conventions.
+Remove unnecessary boilerplate React files and code.
+Remove all console.log()s and commented out code (functional notes and comments are okay).
+
+Deployment
+Deployed via Surge or Netlify
+
+DEALER'S CHOICE
+The final MVP requirement is up to you. You must choose either:
+Utilize Storybook to create at least 5 reusable components, which are then used in your project; OR
+Utilize Jest to create at least 15 tests, which are then used in your project.
+
