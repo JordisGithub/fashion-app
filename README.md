@@ -5,17 +5,17 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
-  - [Project features](#project-team)
+  - [Project features](#project-feautures)
 - [Wireframes](#wireframes)
   - [Desktop](#desktop)
   - [Mobile](#mobile)
   - [Tablet](#tablet)
 - [API](#api)
   - [API Details](#api-details)
-- [Functional Goals](#project-review)
-  - [MVP](#code-showcase)
-  - [Post-MVP](#issues-&-resolutions)
-- [Supporting Libraries](#project-review)
+- [Functional Goals](#functional-goals)
+  - [MVP](#mvp)
+  - [Post-MVP](#post-mvp)
+- [Supporting Libraries](#supporting-libraries)
 - [React Structure](#react-structure)
 - [Component Breakdown](#component-breakdown)
 
