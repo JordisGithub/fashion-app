@@ -1,6 +1,6 @@
 # Circular Fashion Movement
 
-![P3 Challenge](https://imgur.com/P0kiHOf.png)
+![P3 Challenge](imgur.com/FtLC03p)
 
 <p style="text-align: center;"><em>P2 Challenge</em></p>
 
@@ -22,11 +22,8 @@
 - [Component Breakdown](#component-breakdown)
 
 <br>
-<br>
 
 # Overview
-
-![Logo](https://imgur.com/FtLC03p)
 
 ## Project Description
 
