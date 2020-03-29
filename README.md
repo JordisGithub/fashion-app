@@ -1,6 +1,6 @@
 # Circular Fashion Movement
 
-![P3 Challenge](imgur.com/FtLC03p)
+![P3 Challenge](https://imgur.com/FtLC03p.png)
 
 <p style="text-align: center;"><em>P2 Challenge</em></p>
 
