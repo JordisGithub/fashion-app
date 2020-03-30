@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 
 class CommentBox extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.addComment = this.addComment.bind(this);
   }
-
 
   addComment(e) {
     // Prevent the default behaviour of form submit
@@ -19,8 +18,6 @@ class CommentBox extends Component {
     // Make sure name and comment boxes are filled
     if (name && comment) {
       const commentObject = { name, comment };
-
-      this.props.handleAddComment(commentObject);
 
       // Publish comment
       /*global Ably*/
@@ -37,12 +34,10 @@ class CommentBox extends Component {
     }
   }
 
-
   render() {
     return (
       <div>
-        <h1 className="title">Kindly leave your thoughts below</h1>
-
+        <h3 className="title">Kindly leave your thoughts below</h3>
         <form onSubmit={this.addComment}>
           <div className="field">
             <div className="control">
@@ -60,7 +55,6 @@ class CommentBox extends Component {
             </div>
           </div>
         </form>
-
       </div>
     );
   }
