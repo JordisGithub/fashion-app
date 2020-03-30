@@ -47,6 +47,8 @@ Curated audience based content:
 Used Free Adobe XD UI Kit for Blogs & Media Sites by: Keshia M. White
 
 <img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/Wireframe.png" width="700">
+<br>
+<br>
 
 ## StoryBook Elements
 
