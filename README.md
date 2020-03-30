@@ -44,6 +44,8 @@ Curated audience based content:
 
 ## Wireframes
 
+USED Free Adobe XD UI Kit for Blogs & Media Sites by: Keshia M. White
+
 #### Desktop
 
 #### Mobile
@@ -82,13 +84,14 @@ How Ably works -> https://www.ably.io/documentation/how-ably-works
 
 - Client-Side
   - axios
-  - components
   - react
+  - react components
   - react-dom
   - react-router
   - react-router-dom
   - react-scripts
-  - styled
+  - styled components
+  - Storybook
 
 <br>
 <br>
