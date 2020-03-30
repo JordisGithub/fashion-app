@@ -1,6 +1,6 @@
 # Sustainable Fashion Movement
 
-<img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/AdobeStock_239369226.png" width="900">
+<img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/readmeCover.png" width="900">
 
 ## Table of Contents
 
@@ -46,11 +46,7 @@ Curated audience based content:
 
 USED Free Adobe XD UI Kit for Blogs & Media Sites by: Keshia M. White
 
-#### Desktop
-
-#### Mobile
-
-#### Tablet
+<img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/Wireframe.png" width="700">
 
 <br>
 
