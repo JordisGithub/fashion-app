@@ -94,6 +94,7 @@ How Ably works -> https://www.ably.io/documentation/how-ably-works
   - react-scripts
   - styled components
   - Storybook
+  - ably
 
 <br>
 <br>
@@ -137,14 +138,14 @@ client
 
 ## Components
 
-| Component  | State/Prop |                                Description                                 |
-| ---------- | :--------: | :------------------------------------------------------------------------: |
-| CommentBox |   props    |                        Holds comment Box properties                        |
-| Comment    |   props    | This component renders a single comment. It accepts the comment as props.  |
-| Comments   |   props    | This component accepts a comments props and renders the Comment component. |
-| App        |   State    |  Adds the comment that was made to state to update comments in realtime.   |
-| Header     |            |                        Holds comment Box properties                        |
-| Footer     |            |                        Holds comment Box properties                        |
-| Blog       |   props    |          This component will be built for the individual artices           |
+| Component  | State/Prop |                                                                                                                                                                                                             Description                                                                                                                                                                                                              |
+| ---------- | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| CommentBox |   props    |                                                                                                                                             This component renders a comment form. Once the form is submitted, we trigger an onSubmit event which in turn calls addComment().properties                                                                                                                                              |
+| Comment    |   props    |                                                                                                                                        This component renders a single comment. It accepts the comment as props. Props are custom attributes that are used to pass input data to components.                                                                                                                                         |
+| Comments   |   props    |                                                                                                                            This component accepts a comments props and renders the Comment component for each of the comments available. It passes the actual comment to the Comment component as props.                                                                                                                             |
+| App        |   State    | The App component will serve as the parent component. The App component will contain other components which will be nested within it. We define a comments state which is an array of comments. It defaults to an empty array. This will be updated as we add comment through the comment form. Also, we pass the comments state as props to the Comments component. This is how the Comments component get the comments it renders. |
+| Header     |            |                                                                                                                                                                                                     Holds comment Box properties                                                                                                                                                                                                     |
+| Footer     |            |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Blog       |            |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 <br>
