@@ -1,0 +1,55 @@
+.pinkSwatch {
+  background: #fae8eb;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.beigeSwatch {
+  background: #f9cfbc;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.greenSwatch {
+  background: #306b34;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.darkgreenSwatch {
+  background: #19381f;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.darkestgreenSwatch {
+  background: #36413e;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.graySwatch {
+  background: #707070;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.darkbrownSwatch {
+  background: #81624e;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}
+
+.lightbrownSwatch {
+  background: #b6967d;
+  width: 50px;
+  height: 50px;
+  outline: black solid 1px;
+}

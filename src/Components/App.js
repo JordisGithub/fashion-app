@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CommentBox from './CommentBox';
 import Comments from './Comments';
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +34,7 @@ class App extends Component {
     });
   }
 
+
   handleAddComment(comment) {
     this.setState(prevState => {
       return {
@@ -41,9 +43,12 @@ class App extends Component {
     });
   }
 
+
+
   render() {
     return (
       <section className="section">
+
         <h1>Sustainable Fashion Blog Post Goes Here</h1>
         <div className="container">
           <div className="columns">
