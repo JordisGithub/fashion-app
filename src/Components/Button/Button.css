@@ -1,64 +1,23 @@
 button {
   border-radius: 2px;
   padding: 10px 25px;
+  font-family: kazimir, sans-serif;
+  font-weight: 400;
+  font-style: Bold;
 }
+
 .primary {
-  background-color: #0069d9;
+  background-color: #36413e;
   color: white;
-  border: #0069d9;
+  border: #36413e;
 }
 .primary-hover {
-  background-color: #76b2e6;
-  border: #76b2e6;
-  color: #0069d9;
+  background-color: #fae8eb;
+  border: #306b34;
+  color: #36413e;
 }
 .primary-outline {
   background-color: white;
-  color: #2e90e5;
-  border: 2px solid #0069d9;
-}
-.success {
-  background-color: green;
-  color: white;
-  border: green;
-}
-.success-hover {
-  border: 2px solid lightgreen;
-  background: lightgreen;
-  color: green;
-}
-.success-outline {
-  background-color: white;
-  color: green;
-  border: 2px solid green;
-}
-.danger {
-  background-color: red;
-  color: white;
-  border: red;
-}
-.danger-hover {
-  border: 2px solid lightpink;
-  background-color: lightpink;
-  color: red;
-}
-.danger-outline {
-  border: 2px solid red;
-  background-color: white;
-  color: red;
-}
-.warning {
-  background-color: yellow;
-  color: white;
-  border: yellow;
-}
-.warning-hover {
-  border: 2px solid lightyellow;
-  color: yellow;
-  background-color: lightyellow;
-}
-.warning-outline {
-  border: 2px solid yellow;
-  color: yellow;
-  background-color: white;
+  color: #36413e;
+  border: 2px solid #36413e;
 }

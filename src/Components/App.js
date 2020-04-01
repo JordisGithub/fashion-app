@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CommentBox from './CommentBox';
 import Comments from './Comments';
+import Header from '../Components/Header/Header'
 
 
 class App extends Component {
@@ -48,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <section className="section">
-
+        <Header />
         <h1>Sustainable Fashion Blog Post Goes Here</h1>
         <div className="container">
           <div className="columns">

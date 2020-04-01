@@ -1,0 +1,21 @@
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  float: left;
+  font-family: kazimir, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar li {
+  float: right;
+  text-align: center;
+  padding: 0px 20px;
+  font-size: 12px;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
