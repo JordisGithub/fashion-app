@@ -1,28 +1,25 @@
 .footer {
-  border: solid 5px red;
   display: flex;
   background-color: #306b34;
 }
 
 .footer p {
+  padding: 0px 50px;
   color: white;
-  flex: 1;
-  font-family: kazimir, sans-serif;
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
   margin-top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .footer ul {
   list-style: none;
+  flex: 1;
 }
 
 .footer li {
-  color: white;
   list-style: none;
-  /* justify-content: flex-end; */
-
   float: right;
   padding: 0px 20px;
   font-size: 12px;
@@ -33,6 +30,10 @@
   margin-top: 20px;
 }
 
-.navbar a {
+.footer a {
   color: white;
+}
+
+.footer .footerlinks {
+  color: red;
 }
