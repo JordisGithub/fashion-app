@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-import IGlogo from '../../Images/IGlogo.png';
+import IGlogo from '../../Images/instagramWhite.png';
 import Twitterlogo from '../../Images/Twitterlogo.png';
 import facebookLogo from '../../Images/facebookLogo.png';
 
@@ -11,7 +11,7 @@ import './Footer.css';
 export default class Footer extends Component {
   render() {
     return (
-      <header className="navbar">
+      <header className="footer">
         <p>Privacy</p>
 
         <ul>
