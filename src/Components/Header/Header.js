@@ -12,7 +12,7 @@ export default class Header extends Component {
     return (
       <header className="navbar">
         <HashRouter>
-          <h1>Sustainable Fashion Movement</h1>
+          <h1 className='siteName'>Sustainable Fashion Movement</h1>
           <ul>
             <li><a href="#"> <img src={SearchButton} alt="IG-Logo" /></a></li>
             <li><NavLink to="/Contact">Contact</NavLink></li>

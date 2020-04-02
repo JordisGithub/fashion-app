@@ -47,7 +47,7 @@
   padding-bottom: 50px;
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
-  grid-gap: 3px;
+  grid-gap: 30px;
   justify-content: center;
   margin-top: -10px;
 }
@@ -78,7 +78,7 @@
 
 .blogGrid button {
   display: block;
-  margin: auto auto;
+  margin: 0 auto;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 800;
 }

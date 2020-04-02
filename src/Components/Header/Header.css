@@ -1,10 +1,10 @@
 .navbar {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0 20px;
+  display: flex;
 }
 
 .navbar h1 {
-  float: left;
+  flex: 2;
   font-family: kazimir, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17,6 +17,8 @@
 }
 
 .navbar li {
+  /* justify-content: flex-end; */
+
   float: right;
   padding: 0px 20px;
   font-size: 12px;

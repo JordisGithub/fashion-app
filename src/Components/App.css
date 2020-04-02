@@ -1,3 +1,19 @@
 .featuredBlog {
   background-color: #fae8eb;
 }
+
+/* Section undr header */
+
+.featuredSection {
+  border: 5px solid red;
+  display: flex;
+
+  display: block;
+  max-height: 570px;
+  overflow: hidden;
+}
+
+.featuredSection img {
+  margin-top: -90px;
+  margin-right: -20px;
+}

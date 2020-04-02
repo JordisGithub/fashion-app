@@ -86,6 +86,8 @@ class App extends Component {
         <div className='featuredSection'>
           <img src={main} />
           <h1>Sustainable Fashion Movement</h1>
+          <div className='headerHighlight'></div>
+          <div className='headerOutline'></div>
         </div>
 
 
