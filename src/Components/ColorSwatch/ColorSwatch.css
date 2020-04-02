@@ -1,55 +1,108 @@
 .pinkSwatch {
   background: #fae8eb;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
 }
 
 .beigeSwatch {
   background: #f9cfbc;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
 }
 
 .greenSwatch {
   background: #306b34;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .darkgreenSwatch {
   background: #19381f;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .darkestgreenSwatch {
   background: #36413e;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .graySwatch {
   background: #707070;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .darkbrownSwatch {
   background: #81624e;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .lightbrownSwatch {
   background: #b6967d;
-  width: 50px;
-  height: 50px;
   outline: black solid 1px;
+  font-family: brandon-grotesque, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
 }
