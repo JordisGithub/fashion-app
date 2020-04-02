@@ -1,7 +1,35 @@
 import React, { Component } from 'react';
-import CommentBox from './CommentBox';
-import Comments from './Comments';
+import { Route, NavLink, HashRouter } from "react-router-dom";
+
+//Static components
 import Header from '../Components/Header/Header'
+import Footer from '../Components/Footer/Footer'
+import '../Components/App.css'
+
+//pages
+import Contact from "./Pages/Contact";
+
+
+// Comment Box
+import CommentBox from '../Components/Comments/CommentBox';
+import Comments from '../Components/Comments/Comments';
+
+// Blog Grid 
+import BlogGrid from './BlogGrid/BlogGrid'
+import './BlogGrid/BlogGrid.css'
+import blogPicture from '../Images/Reformation.png'
+import blogPicture2 from '../Images/Stella-Mccarthy.png'
+import blogPicture3 from '../Images/Pour-Les-Femmes.png'
+import blogPicture4 from '../Images/Gabriela-Hearst.png'
+
+// Featured Blog
+import FeauturedBlog from '../Components/IndustryArticles/FeauturedBlog'
+import '../Components/IndustryArticles/FeauturedBlog.css'
+import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
+
+//Main Img
+import main from '../Images/MainImage.png'
+
 
 
 class App extends Component {
@@ -49,8 +77,42 @@ class App extends Component {
   render() {
     return (
       <section className="section">
+
+
         <Header />
-        <h1>Sustainable Fashion Blog Post Goes Here</h1>
+
+        <div className='featuredSection'>
+          <img src={main} />
+          <h1>Sustainable Fashion Movement</h1>
+        </div>
+
+
+
+        <div className='featuredBlog'>
+          <FeauturedBlog
+            mainPicture={mainPicture}
+            title={'test'}
+            blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+            type="outline" />
+          <div />
+
+          <div className='blogGrid'></div>
+          <BlogGrid
+            blogPicture={blogPicture}
+            title={'Reformation'}
+
+            blogPicture2={blogPicture2}
+            title2={'Stella Mccarthy'}
+
+            blogPicture3={blogPicture3}
+            title3={'Pour Les Femmes'}
+
+            blogPicture4={blogPicture4}
+            title4={'Gabriela Hearst'}
+          />
+        </div>
+
+
         <div className="container">
           <div className="columns">
             <div className="column is-half is-offset-one-quarter">
@@ -59,6 +121,9 @@ class App extends Component {
             </div>
           </div>
         </div>
+
+        <Footer />
+
       </section>
     );
   }

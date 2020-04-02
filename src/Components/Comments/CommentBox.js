@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+//Submit Button
+import Button from '../Button/Button'
+import '../Button/Button.css'
 
 class CommentBox extends Component {
   constructor(props) {
@@ -37,7 +40,7 @@ class CommentBox extends Component {
   render() {
     return (
       <div>
-        <h3 className="title">Kindly leave your thoughts below</h3>
+        <h3 className="title">Share your thoughts below</h3>
         <form onSubmit={this.addComment}>
           <div className="field">
             <div className="control">
@@ -51,7 +54,9 @@ class CommentBox extends Component {
           </div>
           <div className="field">
             <div className="control">
-              <button className="button is-primary">Submit</button>
+
+              {/* <button className="button is-primary">Submit</button> */}
+              <Button label="Submit" type="primary" />
             </div>
           </div>
         </form>

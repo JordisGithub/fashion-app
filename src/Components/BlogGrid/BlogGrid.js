@@ -1,15 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 
-const BlogGrid = props => (
-  <>
-    <div className='blogGrid'>
-      <h1>{props.title}</h1>
-      <img className='mainImage' src={props.mainPicture} />
-      <p>{props.blogSummary}</p>
-      <div className={props.outline}></div>
-    </div>
 
-  </>
-);
+export default class BlogGrid extends Component {
+  render() {
+    return (
+      <>
+        <div className='blogGrid'>
 
-export default BlogGrid;
+          <img className='blogImage' src={this.props.blogPicture} />
+          <h1>{this.props.title}</h1>
+          <img className='blogImage' src={this.props.blogPicture2} />
+          <h1>{this.props.title2}</h1>
+          <img className='blogImage' src={this.props.blogPicture3} />
+          <h1>{this.props.title3}</h1>
+          <img className='blogImage' src={this.props.blogPicture4} />
+          <h1>{this.props.title4}</h1>
+        </div>
+      </>
+    );
+  }
+}
