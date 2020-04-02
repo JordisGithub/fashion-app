@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, NavLink, HashRouter, Link } from "react-router-dom";
 
 //Static components
 import Header from '../Components/Header/Header'
@@ -29,6 +29,8 @@ import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
 
 //Main Img
 import main from '../Images/MainImage.png'
+
+
 
 
 

@@ -1,4 +1,84 @@
+.wrapper {
+  background-color: #fae8eb;
+}
+
+/* Title section above pic */
+.blogGridTitle {
+  width: 600px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.blogGridTitle h1 {
+  font-family: kazimir, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  color: #36413e;
+  margin: 0px;
+}
+
+.blogGridTitle h2 {
+  font-family: kazimir, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 40px;
+  text-align: right;
+  color: #36413e;
+  margin-top: -20px;
+}
+
+.blogGridTitleHighlight {
+  background-color: whitesmoke;
+  height: 40px;
+  margin-top: -50px;
+  max-width: 390px;
+  /* margin-bottom: 0px; */
+  margin-left: auto;
+  /* margin-right: 0; */
+}
+
+/* Picture grid section */
 .blogGrid {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 3px;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.blogImage {
+  height: 250px;
+  width: 250px;
   display: block;
-  float: left;
+  margin: auto;
+  /* border: 2px solid brown; */
+}
+
+.indBlogGrid h1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Button at the bottom of photo grid */
+.buttonDiv {
+  /* border: 2px solid brown; */
+  width: 1015px;
+  height: 110px;
+  padding-top: 50px;
+}
+
+.blogGrid button {
+  display: block;
+  margin: auto auto;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
 }
