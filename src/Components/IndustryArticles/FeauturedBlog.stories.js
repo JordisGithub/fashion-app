@@ -11,7 +11,7 @@ storiesOf("Industry Articles", module)
       title={'FAST FASHION'}
       tag={'IS #CANCELLED'}
       mainPicture={mainPicture}
-      blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+      blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
       outline="" />
 
   ))

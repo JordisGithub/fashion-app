@@ -85,7 +85,7 @@ class App extends Component {
 
         <div className='featuredSection'>
           <div className='title'>Sustainable Fashion Movement</div>
-          <div className='underline'></div>
+          <div className='featuredSectionUnderline'></div>
           <div className='headerOutline'></div>
           <img src={main} />
         </div>
@@ -101,7 +101,7 @@ class App extends Component {
             title={'FAST FASHION'}
             tag={'IS #CANCELLED'}
             mainPicture={mainPicture}
-            blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+            blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
             outline="" />
 
 

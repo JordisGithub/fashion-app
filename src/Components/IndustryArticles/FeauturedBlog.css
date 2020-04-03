@@ -1,0 +1,56 @@
+/* 
+<FeauturedBlog
+title={'FAST FASHION'}
+tag={'IS #CANCELLED'}
+mainPicture={mainPicture}
+blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+outline="" /> 
+*/
+
+/* 
+<div className='featuredBlogContainer'>
+          <div className='title'> {this.props.title}</div>
+          <div className='tag'> {this.props.tag}</div>
+          <img className='mainImage' src={this.props.mainPicture} />
+          <div className='blogSummary'> {this.props.blogSummary} </div>
+          <div className='outline'>{this.props.outline}</div>
+        </div>*/
+
+.featuredBlogContainer {
+  outline: solid 5px red;
+  width: 400px;
+}
+
+.featuredBlogTitle {
+  background-color: #f9cfbc;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.tag {
+  background-color: #f9cfbc;
+  /* outline: solid 5px blue; */
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.mainImage {
+  width: 300px;
+  height: 250px;
+}
+
+.blogSummary {
+  outline: solid 3px black;
+  font-family: kazimir, sans-serif;
+}
+
+.outline {
+  outline: solid 3px black;
+  margin: 20px;
+}
