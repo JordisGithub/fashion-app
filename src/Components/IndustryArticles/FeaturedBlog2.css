@@ -76,7 +76,7 @@
   outline: solid 3px #306b34;
   margin-left: -360px;
   margin-top: 20px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 
   width: 375px;
   height: 390px;
@@ -87,24 +87,25 @@
   width: auto;
 }
 /* position: absolute;
-top: 90px;
-right: 125px; */
+        top: 90px;
+        right: 125px; */
 
 /* <div featuredBlogContainer>
-<FeauturedBlog
-  mainPicture={brunchPicture}
-  outline=""
-  title={'FASHION SWAPS ARE THE NEW BRUCH'}
-  blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-/>
-</div> */
+        <FeauturedBlog
+          mainPicture={brunchPicture}
+          outline=""
+          title={'FASHION SWAPS ARE THE NEW BRUCH'}
+          blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+        />
+        </div> */
 
 .featuredBlogContainer2 {
-  margin: 0px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .featuredBlogContainer2 {
   margin-right: 200px;
+  margin-bottom: 5px;
 }

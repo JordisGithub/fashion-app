@@ -24,11 +24,14 @@ import blogPicture4 from '../Images/Gabriela-Hearst.png'
 
 // Featured Blog
 import FeauturedBlog from '../Components/IndustryArticles/FeauturedBlog'
+import FeauturedBlog2 from './IndustryArticles/FeaturedBlog2'
 import '../Components/IndustryArticles/FeauturedBlog.css'
+import './IndustryArticles/FeaturedBlog2.css'
 import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
 
 //Main Img
 import main from '../Images/MainImage.png'
+import brunchPicture from '../Images/Fashion-Brunch.png'
 
 
 
@@ -93,22 +96,36 @@ class App extends Component {
 
         <div className='textDivider'>Your Sustainable Fashion Resource</div>
         <span className='textDividertag'>Geek out with us</span>
-        {/* <div className='textDividerHighlight'></div> */}
+
 
 
         <div className='featuredBlog'>
-          <FeauturedBlog
-            mainPicture={mainPicture}
-            outline=""
-            title={'FAST FASHION IS #CANCELLED'}
-            blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          // tag={'IS #CANCELLED'}
-          />
+
+          <div className='featuredBlogContainer1'>
+            <FeauturedBlog
+              mainPicture={mainPicture}
+              outline=""
+              title={'FAST FASHION IS #CANCELLED'}
+              blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+            />
+          </div>
+
+          <div className='featuredBlogContainer2'>
+            <FeauturedBlog2
+              mainPicture2={brunchPicture}
+              outline2=""
+              title2={'FASHION SWAPS ARE THE NEW BRUCH'}
+              blogSummary2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+            />
+          </div>
 
 
 
 
-          <div className='blogGrid'></div>
+        </div>
+
+
+        <div className='blogGrid'>
           <BlogGrid
             blogPicture={blogPicture}
             title={'Reformation'}
@@ -138,7 +155,7 @@ class App extends Component {
 
         <Footer />
 
-      </section>
+      </section >
     );
   }
 }
