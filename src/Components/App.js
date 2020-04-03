@@ -91,14 +91,21 @@ class App extends Component {
         </div>
 
 
+        <div className='textDivider'>Your Sustainable Fashion Resource</div>
+        <span className='textDividertag'>Geek out with us</span>
+        {/* <div className='textDividerHighlight'></div> */}
+
 
         <div className='featuredBlog'>
           <FeauturedBlog
+            title={'FAST FASHION'}
+            tag={'IS #CANCELLED'}
             mainPicture={mainPicture}
-            title={'test'}
             blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-            type="outline" />
-          <div />
+            outline="" />
+
+
+
 
           <div className='blogGrid'></div>
           <BlogGrid
@@ -115,6 +122,8 @@ class App extends Component {
             title4={'Gabriela Hearst'}
           />
         </div>
+
+
 
 
         <div className="container">

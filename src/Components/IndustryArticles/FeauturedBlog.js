@@ -5,9 +5,10 @@ export default class FeauturedBlog extends Component {
     return (
       <>
         <div> {this.props.title}</div>
+        <div> {this.props.tag}</div>
         <img className='mainImage' src={this.props.mainPicture} />
         <div> {this.props.blogSummary} </div>
-        <div className={this.props.type}></div>
+        <div className={this.props.outline}></div>
 
 
 

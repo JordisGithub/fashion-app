@@ -8,10 +8,11 @@ import mainPicture from '../../Images/Fast-Fashion-Cancelled.png'
 storiesOf("Industry Articles", module)
   .add("Feautured Blog", () => (
     <FeauturedBlog
+      title={'FAST FASHION'}
+      tag={'IS #CANCELLED'}
       mainPicture={mainPicture}
-      title={'test'}
       blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-      type="outline" />
+      outline="" />
 
   ))
 
