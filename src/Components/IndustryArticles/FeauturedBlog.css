@@ -1,56 +1,104 @@
-/* 
-<FeauturedBlog
-title={'FAST FASHION'}
-tag={'IS #CANCELLED'}
-mainPicture={mainPicture}
-blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-outline="" /> 
-*/
+/* html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  background-color: #ffeead;
+} */
 
 /* 
-<div className='featuredBlogContainer'>
-          <div className='title'> {this.props.title}</div>
-          <div className='tag'> {this.props.tag}</div>
-          <img className='mainImage' src={this.props.mainPicture} />
-          <div className='blogSummary'> {this.props.blogSummary} </div>
-          <div className='outline'>{this.props.outline}</div>
+    <div className='featuredBlogContainer'>
+
+          <div className='featuredBlogTitle'>   {this.props.title}</div>
+          <div className='tag'>                 {this.props.tag}</div>
+          <img className='mainImage'              src={this.props.mainPicture} />
+          <div className='blogSummary'>         {this.props.blogSummary} </div>
+          <div className='outline'>           {this.props.outline}</div>
+
         </div>*/
+
+/* justify-content:
+        flex-start flex-end center space-around
+        space-between space-evenly */
 
 .featuredBlogContainer {
   outline: solid 5px red;
-  width: 400px;
+  width: 900px;
+  margin-left: 480px;
+  /* height: 100%; */
+
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+
+/* .featuredBlogContainer > .mainImage {
+  height: 300px;
+} */
 
 .featuredBlogTitle {
-  background-color: #f9cfbc;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 24px;
-  text-align: center;
-}
+  /* outline: solid 5px yellowgreen; */
+  margin-top: 30px;
+  margin-left: 20px;
 
-.tag {
   background-color: #f9cfbc;
-  /* outline: solid 5px blue; */
+  color: #19381f;
   font-family: brandon-grotesque, sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   font-style: normal;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
-}
-
-.mainImage {
-  width: 300px;
-  height: 250px;
+  height: 95px;
+  width: 400px;
+  line-height: 40px;
+  padding-top: 20px;
 }
 
 .blogSummary {
-  outline: solid 3px black;
+  /* outline: solid 3px purple; */
   font-family: kazimir, sans-serif;
+  height: 115px;
+  width: 300px;
+  text-align: justify;
+  font-family: kazimir, sans-serif;
+  font-weight: 50;
+  font-style: italic;
+  font-size: 16px;
+  color: #7f7f7f;
+  /* margin-left: auto; */
+
+  position: absolute;
+  top: 1235px;
+  right: 80px;
 }
 
+/* .mainImage {
+  
+  width: 100%;
+  height: auto;
+
+  max-width: 90%;
+  transform: scaleX(0.3);
+  transform: scaleY(0.3);
+
+  transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  -webkit-transform: scale(0.7, 0.7); 
+} */
+
 .outline {
-  outline: solid 3px black;
+  outline: solid 3px #306b34;
   margin: 20px;
+
+  /* position: absolute;
+  top: 90px;
+  right: 125px; */
+
+  width: 375px;
+  height: 390px;
+
+  position: absolute;
+  top: 1080px;
+  right: 460px;
 }

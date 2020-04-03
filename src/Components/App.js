@@ -98,11 +98,12 @@ class App extends Component {
 
         <div className='featuredBlog'>
           <FeauturedBlog
-            title={'FAST FASHION'}
-            tag={'IS #CANCELLED'}
             mainPicture={mainPicture}
+            outline=""
+            title={'FAST FASHION IS #CANCELLED'}
             blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-            outline="" />
+          // tag={'IS #CANCELLED'}
+          />
 
 
 
