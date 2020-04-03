@@ -115,14 +115,7 @@ header {
   margin-top: 50px;
 }
 
-/* <div className="container">
-          <div className="columns">
-            <div className="column is-half is-offset-one-quarter">
-              <CommentBox handleAddComment={this.handleAddComment} />
-              <Comments comments={this.state.comments} />
-            </div>
-          </div>
-        </div> */
+/*    Comments Box section   */
 
 .container {
   margin-bottom: 30px;
@@ -130,9 +123,25 @@ header {
   font-family: kazimir, sans-serif;
   font-weight: 450;
   font-style: italic;
-  font-size: 14px;
+  font-size: 24px;
   margin-top: -100px;
   width: auto;
+}
+
+.container .columns [type="text"] {
+  width: 500px;
+  height: 40px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+}
+
+.control {
+}
+
+.control .textarea {
+  width: 500px;
+  height: 100px;
 }
 
 /* //////////////
@@ -147,6 +156,7 @@ header {
 //////////////
 ///////////////
 ////////////// */
+
 /* Media Query for Tablets and Smaller */
 @media only screen and (max-width: 770px) {
   html {
