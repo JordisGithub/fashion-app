@@ -94,9 +94,10 @@ class App extends Component {
         </div>
 
 
-        <div className='textDivider'>Your Sustainable Fashion Resource</div>
-        <span className='textDividertag'>Geek out with us</span>
-
+        <div className='gridHeadingDivider'>
+          <div className='textDivider'>Your Sustainable Fashion Resource</div>
+          <span className='textDividertag'>Geek out with us</span>
+        </div>
 
 
         <div className='featuredBlog'>
@@ -147,10 +148,10 @@ class App extends Component {
 
         <div className="container">
           <div className="columns">
-            <div className="column is-half is-offset-one-quarter">
-              <CommentBox handleAddComment={this.handleAddComment} />
-              <Comments comments={this.state.comments} />
-            </div>
+
+            <CommentBox handleAddComment={this.handleAddComment} />
+            <Comments comments={this.state.comments} />
+
           </div>
         </div>
 

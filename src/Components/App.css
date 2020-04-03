@@ -114,3 +114,115 @@ header {
   /* background-color: red; */
   margin-top: 50px;
 }
+
+/* <div className="container">
+          <div className="columns">
+            <div className="column is-half is-offset-one-quarter">
+              <CommentBox handleAddComment={this.handleAddComment} />
+              <Comments comments={this.state.comments} />
+            </div>
+          </div>
+        </div> */
+
+.container {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: kazimir, sans-serif;
+  font-weight: 450;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: -100px;
+  width: auto;
+}
+
+/* //////////////
+//////////////
+///////////////
+//////////////
+//////////////
+//////////////
+///////////////
+//////////////
+//////////////
+//////////////
+///////////////
+////////////// */
+/* Media Query for Tablets and Smaller */
+@media only screen and (max-width: 770px) {
+  html {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .featuredSection .title {
+    font-size: 30px;
+    /* position: absolute; */
+    top: 50px;
+    padding-bottom: 20px;
+  }
+  .headerOutline {
+    max-width: 480px;
+    max-height: 80px;
+    margin-top: -50px;
+    position: -webkit-sticky;
+  }
+
+  .featuredSectionUnderline {
+    right: 200px;
+    max-width: 350px;
+    position: absolute;
+    top: 100px;
+  }
+
+  .textDivider {
+    padding-top: 0px;
+    margin-top: -55px;
+    font-size: 30px;
+  }
+
+  .textDividertag {
+    padding: 0px;
+
+    font-size: 30px;
+    margin-left: 230px;
+  }
+
+  .featuredBlogContainer {
+    /* position: relative; */
+
+    margin: 0px;
+    position: relative;
+  }
+
+  .featuredBlogContainer1 {
+    margin-left: -400px;
+  }
+
+  .featuredBlogContainer2 {
+    margin-left: 15px;
+  }
+
+  .blogGrid div {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-gap: 40px;
+    margin-top: 60px;
+    margin-right: -275px;
+  }
+
+  .gridHeadingDivider {
+    padding: 100px;
+    margin-bottom: 100px;
+    display: block;
+  }
+
+  .featuredBlog {
+    margin-top: -130px;
+    margin-left: -55px;
+  }
+
+  .blogGridTitle h1 {
+    display: block;
+    height: 100px;
+  }
+}
