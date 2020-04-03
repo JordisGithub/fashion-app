@@ -1,64 +1,33 @@
-/* .mainImage {
-  
-  width: 100%;
-  height: auto;
-
-  max-width: 90%;
-  transform: scaleX(0.3);
-  transform: scaleY(0.3);
-
-  transform: scale(0.7, 0.7);
-  -ms-transform: scale(0.7, 0.7);
-  -webkit-transform: scale(0.7, 0.7); 
-} */
-
-/* html, body {
-  box-sizing: border-box;
-  height: 100%;
-} */
-
-/* justify-content:
-        flex-start flex-end center space-around
-        space-between space-evenly */
-
-/* .featuredBlogContainer > .mainImage {
-          height: 300px;
-        } */
-
-.featuredBlogContainer {
+.featuredBlogContainer2 {
   /* outline: solid 5px red; */
-  width: 800px;
-  height: 420px;
-  margin-left: 400px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 5px;
 }
 
-.featuredBlogTitle {
+.featuredBlogTitle2 {
   /* flex: 1; */
   /* outline: solid 5px yellowgreen; */
-  flex-basis: 350px;
-  margin-top: 30px;
+  flex-basis: 320px;
+  margin-top: -340px;
   margin-left: 20px;
 
   background-color: #f9cfbc;
   color: #19381f;
+
   font-family: brandon-grotesque, sans-serif;
-  font-weight: 350;
+  font-weight: 300;
   font-style: normal;
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   height: 95px;
   line-height: 40px;
   padding-top: 20px;
 }
 
-.blogSummary {
-  flex-basis: 350px;
-  /* outline: solid 3px purple; */
+.blogSummary2 {
+  /* flex-basis: 350px; */
+  /* outline: solid 3px red; */
   font-family: kazimir, sans-serif;
-  height: 115px;
-  width: 300px;
+
   text-align: justify;
   font-family: kazimir, sans-serif;
   font-weight: 50;
@@ -66,38 +35,38 @@
   font-size: 16px;
   color: #7f7f7f;
 
-  margin-left: -350px;
-  margin-top: 150px;
-  /* margin-bottom: -20px; */
+  flex-basis: 250px;
+  margin: -220px 0 auto -320px;
 }
 
-.outline {
+.outline2 {
   flex-basis: 350px;
   outline: solid 3px #306b34;
   margin-left: -360px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
+  padding-bottom: 5px;
 
   width: 375px;
   height: 390px;
 }
 
-.mainImage {
-  height: 95%;
-  width: auto;
+.mainImage2 {
+  /* outline: solid 3px purple; */
+  margin-left: 280px;
 }
 /* position: absolute;
-        top: 90px;
-        right: 125px; */
+                top: 90px;
+                right: 125px; */
 
 /* <div featuredBlogContainer>
-        <FeauturedBlog
-          mainPicture={brunchPicture}
-          outline=""
-          title={'FASHION SWAPS ARE THE NEW BRUCH'}
-          blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-        />
-        </div> */
+                <FeauturedBlog
+                  mainPicture={brunchPicture}
+                  outline=""
+                  title={'FASHION SWAPS ARE THE NEW BRUCH'}
+                  blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+                />
+                </div> */
 
 .featuredBlogContainer2 {
   margin-top: 50px;
