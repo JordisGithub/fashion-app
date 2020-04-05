@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.977d45ea.chunk.css",
+    "main.js": "/main.d156753d7450d7e99603.bundle.js",
+    "main.css.map": "/static/css/main.977d45ea.chunk.css.map",
+    "main.js.map": "/main.d156753d7450d7e99603.bundle.js.map",
+    "runtime~main.js": "/runtime~main.d156753d7450d7e99603.bundle.js",
+    "runtime~main.js.map": "/runtime~main.d156753d7450d7e99603.bundle.js.map",
+    "vendors~main.js": "/vendors~main.d156753d7450d7e99603.bundle.js",
+    "vendors~main.js.map": "/vendors~main.d156753d7450d7e99603.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.bc0b4b8856b5742111581a03a73190cd.js": "/precache-manifest.bc0b4b8856b5742111581a03a73190cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/Fashion-Brunch.png": "/static/media/Fashion-Brunch.2398f26b.png",
+    "static/media/Fast-Fashion-Cancelled.png": "/static/media/Fast-Fashion-Cancelled.ed201371.png",
+    "static/media/Gabriela-Hearst.png": "/static/media/Gabriela-Hearst.6c46f743.png",
+    "static/media/Pour-Les-Femmes.png": "/static/media/Pour-Les-Femmes.cf69b4fa.png",
+    "static/media/Reformation.png": "/static/media/Reformation.5b51aca1.png",
+    "static/media/Search.png": "/static/media/Search.7481d095.png",
+    "static/media/Stella-Mccarthy.png": "/static/media/Stella-Mccarthy.fb5df8be.png",
+    "static/media/Twitterlogo.png": "/static/media/Twitterlogo.2c50c81f.png",
+    "static/media/instagramWhite.png": "/static/media/instagramWhite.32b0427b.png",
+    "vendors~main.d156753d7450d7e99603.bundle.js.LICENSE.txt": "/vendors~main.d156753d7450d7e99603.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.d156753d7450d7e99603.bundle.js",
+    "vendors~main.d156753d7450d7e99603.bundle.js",
+    "static/css/main.977d45ea.chunk.css",
+    "main.d156753d7450d7e99603.bundle.js"
+  ]
+}
