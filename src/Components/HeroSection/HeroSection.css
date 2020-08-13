@@ -1,18 +1,14 @@
-/* <div className='featuredSection'>
-<div className='title'>Sustainable Fashion Movement</div>
-<div className='featuredSectionUnderline'></div>
-<div className='headerOutline'></div>
-<img src={HeroImg} /> 
-</div> */
-
 .featuredSection {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   overflow: hidden;
   height: 45vw;
   background-image: url("https://i.imgur.com/eqNQ5pE.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -85px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .featuredSection .title {
@@ -28,4 +24,9 @@
   outline: 1px solid black;
   outline-offset: -20px;
   border: 1px solid black;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  /* margin: 100px 0 0 45rem; */
+  /* margin-left: 500px; */
 }

@@ -14,7 +14,7 @@ export default class Nav extends Component {
 
 
         <div className='featuredSection'>
-          <div className='title'>Sustainable Fashion Movement</div>
+          <div className='title'>Sustainable Fashion Network</div>
           <div className='featuredSectionUnderline'></div>
           <div className='headerOutline'></div>
           {/* <img src={HeroImg} /> */}
