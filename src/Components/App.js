@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Route, NavLink, HashRouter, Link } from "react-router-dom";
 
 //Static components
-import Header from '../Components/Header/Header'
+import Nav from './Nav/Nav'
+import HeroSection from './HeroSection/HeroSection'
 import Footer from '../Components/Footer/Footer'
 import '../Components/App.css'
 
@@ -30,7 +31,7 @@ import './IndustryArticles/FeaturedBlog2.css'
 import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
 
 //Main Img
-import main from '../Images/MainImage.png'
+
 import brunchPicture from '../Images/Fashion-Brunch.png'
 
 
@@ -84,14 +85,17 @@ class App extends Component {
       <section className="section">
 
 
-        <Header />
+        <Nav />
+        <HeroSection />
 
-        <div className='featuredSection'>
+
+
+        {/* <div className='featuredSection'>
           <div className='title'>Sustainable Fashion Movement</div>
           <div className='featuredSectionUnderline'></div>
           <div className='headerOutline'></div>
           <img src={main} />
-        </div>
+        </div> */}
 
 
         <div className='gridHeadingDivider'>

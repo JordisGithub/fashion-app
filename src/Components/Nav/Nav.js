@@ -4,10 +4,10 @@ import Contact from '../Pages/Contact'
 
 
 import SearchButton from '../../Images/Search.png';
-import './Header.css';
+import './Nav.css';
 
 
-export default class Header extends Component {
+export default class Nav extends Component {
   render() {
     return (
       <header className="navbar">

@@ -17,8 +17,7 @@
 }
 
 .navbar li {
-  /* justify-content: flex-end; */
-
+  justify-content: flex-end;
   float: right;
   padding: 0px 20px;
   font-size: 12px;
