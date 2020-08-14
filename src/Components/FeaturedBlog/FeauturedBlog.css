@@ -22,6 +22,7 @@
   color: #36413e;
   width: 380px;
   margin: auto;
+  font-size: 40px;
 }
 
 .individual-blog-wrapper {
@@ -42,9 +43,6 @@
   display: grid;
   grid-template-columns: repeat(40, 40px);
   grid-template-rows: repeat(25, 25px);
-}
-
-.featuredBlogContainer2 {
   margin-top: 100px;
 }
 
