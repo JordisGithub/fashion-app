@@ -6,12 +6,12 @@ import blogPicture from '../../Images/Reformation.png'
 import blogPicture2 from '../../Images/Stella-Mccarthy.png'
 import blogPicture3 from '../../Images/Pour-Les-Femmes.png'
 import blogPicture4 from '../../Images/Gabriela-Hearst.png'
-import BlogGrid from "./FeaturedBrands.js";
+import FeaturedBrands from "./FeaturedBrands.js";
 
 storiesOf("Brand Articles", module)
 
   .add("Blog Grid", () => (
-    <BlogGrid
+    <FeaturedBrands
       blogPicture={blogPicture}
       title={'Reformation'}
 

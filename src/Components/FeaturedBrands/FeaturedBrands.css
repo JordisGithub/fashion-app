@@ -1,4 +1,4 @@
-.wrapper {
+.FeaturedBrands-wrapper {
   background-color: #fae8eb;
   margin: auto;
   padding-top: 100px;
@@ -38,28 +38,37 @@
   height: 40px;
   margin-top: -80px;
   max-width: 465px;
-  /* margin-bottom: 0px; */
   margin-left: auto;
-  /* margin-right: 0; */
 }
 
 /* Picture grid section */
 .blogGrid {
-  /* padding-top: 10px; */
-  /* padding-bottom: 50px; */
+  /* border: solid red 3pt; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-gap: 30px; */
-  /* justify-content: center; */
-  /* margin-top: -10px; */
+  grid-gap: 10px;
+
+  overflow: scroll;
+  width: 95%;
+  margin: auto;
+  justify-items: center;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  vertical-align: auto;
+
+  margin-top: 30px;
+}
+
+.indBlogGrid {
+  /* border: 2px solid brown; */
+  display: flex;
+  flex-flow: column;
 }
 
 .blogImage {
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: auto;
-  /* border: 2px solid brown; */
+  height: 300px;
+  width: 300px;
 }
 
 .indBlogGrid h1 {
@@ -68,19 +77,4 @@
   font-style: normal;
   font-size: 24px;
   text-align: center;
-}
-
-/* Button at the bottom of photo grid */
-.buttonDiv {
-  /* border: 2px solid brown; */
-  width: 100px;
-  height: 110px;
-  padding-top: 50px;
-}
-
-.blogGrid button {
-  /* display: block; */
-  margin: auto;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 800;
 }

@@ -7,7 +7,7 @@ export default class FeaturedBrands extends Component {
   render() {
     return (
       <>
-        <div className='wrapper'>
+        <div className='FeaturedBrands-wrapper'>
 
           <div className='blogGridTitle'>
             <h1>Sustainable Brands we Love</h1>
