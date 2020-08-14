@@ -6,8 +6,8 @@ export default class FeauturedBlog extends Component {
     return (
       <>
         <div className='gridHeadingDivider'>
-          <div className='textDivider'>Your Sustainable Fashion Resource</div>
-          <span className='textDividertag'>Geek out with us</span>
+          <div className='textDivider featureb-blog-textdivider'>Your Sustainable Fashion Resource</div>
+          <div className='textDividertag'>Geek out with us</div>
         </div>
 
         {/* ========================================
