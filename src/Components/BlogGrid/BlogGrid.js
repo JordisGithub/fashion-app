@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from '../Button/Button'
+import './BlogGrid.css'
 
 
 export default class BlogGrid extends Component {
@@ -39,11 +40,7 @@ export default class BlogGrid extends Component {
             <div className='buttonDiv'>
               <Button label="See More" type="primary" />
             </div>
-
-            {/* Blog grid ends here */}
           </div>
-
-          {/* wrapper ends here */}
         </div>
       </>
     )

@@ -45,20 +45,20 @@
 
 /* Picture grid section */
 .blogGrid {
-  padding-top: 10px;
-  padding-bottom: 50px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 50px; */
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-gap: 30px;
-  justify-content: center;
-  margin-top: -10px;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-gap: 30px; */
+  /* justify-content: center; */
+  /* margin-top: -10px; */
 }
 
 .blogImage {
-  height: 250px;
+  /* height: 250px;
   width: 250px;
   display: block;
-  margin: auto;
+  margin: auto; */
   /* border: 2px solid brown; */
 }
 
@@ -73,9 +73,9 @@
 /* Button at the bottom of photo grid */
 .buttonDiv {
   /* border: 2px solid brown; */
-  width: 1015px;
+  /* width: 1015px;
   height: 110px;
-  padding-top: 50px;
+  padding-top: 50px; */
 }
 
 .blogGrid button {

@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import { Route, NavLink, HashRouter, Link } from "react-router-dom";
+// import { Route, NavLink, HashRouter, Link } from "react-router-dom";
+import '../Components/App.css'
 
 //Static components
 import Nav from './Nav/Nav'
 import HeroSection from './HeroSection/HeroSection'
+import FeauturedBlog from './FeaturedBlog/FeauturedBlog'
+
+
+
 import Footer from '../Components/Footer/Footer'
-import '../Components/App.css'
 
 //pages
 import Contact from "./Pages/Contact";
@@ -18,21 +22,15 @@ import Comments from '../Components/Comments/Comments';
 // Blog Grid 
 import BlogGrid from './BlogGrid/BlogGrid'
 import './BlogGrid/BlogGrid.css'
+
+
+//Images
+import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
+import brunchPicture from '../Images/Fashion-Brunch.png'
 import blogPicture from '../Images/Reformation.png'
 import blogPicture2 from '../Images/Stella-Mccarthy.png'
 import blogPicture3 from '../Images/Pour-Les-Femmes.png'
 import blogPicture4 from '../Images/Gabriela-Hearst.png'
-
-// Featured Blog
-import FeauturedBlog from '../Components/IndustryArticles/FeauturedBlog'
-import FeauturedBlog2 from './IndustryArticles/FeaturedBlog2'
-import '../Components/IndustryArticles/FeauturedBlog.css'
-import './IndustryArticles/FeaturedBlog2.css'
-import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
-
-//Main Img
-
-import brunchPicture from '../Images/Fashion-Brunch.png'
 
 
 
@@ -87,48 +85,17 @@ class App extends Component {
 
         <Nav />
         <HeroSection />
+        <FeauturedBlog
+          mainPicture={mainPicture}
+          outline=""
+          title={'FAST FASHION IS #CANCELLED'}
+          blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          mainPicture2={brunchPicture}
+          outline2=""
+          title2={'FASHION SWAPS ARE THE NEW BRUCH'}
+          blogSummary2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+        />
 
-
-
-        {/* <div className='featuredSection'>
-          <div className='title'>Sustainable Fashion Movement</div>
-          <div className='featuredSectionUnderline'></div>
-          <div className='headerOutline'></div>
-          <img src={main} />
-        </div> */}
-
-
-        <div className='gridHeadingDivider'>
-          <div className='textDivider'>Your Sustainable Fashion Resource</div>
-          <span className='textDividertag'>Geek out with us</span>
-        </div>
-
-
-        <div className='featuredBlog'>
-
-          <div className='featuredBlogContainer1'>
-            <FeauturedBlog
-              mainPicture={mainPicture}
-              outline=""
-              title={'FAST FASHION IS #CANCELLED'}
-              blogSummary={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-            />
-          </div>
-
-          <div className='featuredBlogContainer2'>
-            <FeauturedBlog2
-              mainPicture2={brunchPicture}
-              outline2=""
-              title2={'FASHION SWAPS ARE THE NEW BRUCH'}
-              blogSummary2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-            />
-          </div>
-
-
-
-
-
-        </div>
 
 
         <div className='blogGrid'>

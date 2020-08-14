@@ -9,7 +9,8 @@
   /* margin-right: 400; */
 }
 
-.featuredBlogTitle {
+.featuredBlogTitle
+/* .featuredBlogTitle2  */ {
   /* flex: 1; */
   /* outline: solid 5px yellowgreen; */
   flex-basis: 350px;
@@ -28,7 +29,8 @@
   padding-top: 20px;
 }
 
-.blogSummary {
+.blogSummary
+/* .blogSummary2  */ {
   flex-basis: 250px;
   /* outline: solid 3px purple; */
   font-family: kazimir, sans-serif;
@@ -47,7 +49,8 @@
   /* margin-bottom: -20px; */
 }
 
-.outline {
+.outline
+/* .outline2  */ {
   flex-basis: 350px;
   outline: solid 3px #306b34;
   margin-left: -360px;
@@ -58,7 +61,8 @@
   height: 390px;
 }
 
-.mainImage {
+.mainImage
+/* .mainImage2  */ {
   height: 95%;
   width: auto;
 }
