@@ -13,7 +13,7 @@ export default class Nav extends Component {
       < >
 
 
-        <div className='featuredSection'>
+        <div className='featuredSection' id="Home">
           <div className='title'>Sustainable Fashion Network</div>
           <div className='featuredSectionUnderline'></div>
           <div className='headerOutline'></div>

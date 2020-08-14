@@ -1,39 +1,58 @@
-.featuredBlogContainer {
-  /* outline: solid 5px black; */
-  width: 800px;
-  height: 420px;
-  flex-wrap: wrap;
+.featured-blog-section {
   display: flex;
-  margin-left: 500px;
+  flex-direction: column;
+}
+
+.featuredBlogContainer,
+.featuredBlogContainer2 {
+  outline: solid 5px black;
+  /* width: 50rem; */
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(10, 50px);
+}
+
+.featuredBlogContainer {
+  /* width: 800px; */
+  /* height: 420px; */
+  /* flex-wrap: wrap; */
+  /* margin-left: 500px; */
   /* margin-left: 5px; */
   /* margin-right: 400; */
 }
 
-.featuredBlogTitle
-/* .featuredBlogTitle2  */ {
-  /* flex: 1; */
-  /* outline: solid 5px yellowgreen; */
-  flex-basis: 350px;
-  margin-top: 30px;
-  margin-left: -80px;
+.featuredBlogContainer2 {
+  /* margin-top: 30px;
+  margin-left: 20vw;
+  justify-self: flex-end; */
+}
 
+.featuredBlogTitle,
+.featuredBlogTitle2 {
+  /* flex: 1; */
+  /* flex-basis: 350px;
+  margin-top: 30px;
+  margin-left: -80px; */
+  /* font-style: normal; */
+  /* text-align: center; */
+  /* padding-top: 20px; */
+
+  outline: solid 5px yellowgreen;
   background-color: #f9cfbc;
   color: #19381f;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 32px;
-  text-align: center;
   height: 95px;
   line-height: 40px;
-  padding-top: 20px;
 }
 
-.blogSummary
-/* .blogSummary2  */ {
-  flex-basis: 250px;
-  /* outline: solid 3px purple; */
-  font-family: kazimir, sans-serif;
+.blogSummary,
+.blogSummary2 {
+  /* flex-basis: 250px; */
+  outline: solid 3px purple;
+  /* font-family: kazimir, sans-serif;
   height: 125px;
 
   text-align: justify;
@@ -45,24 +64,24 @@
 
   margin-left: -250px;
   margin-right: -100px;
-  margin-top: 150px;
-  /* margin-bottom: -20px; */
+  margin-top: 150px; */
 }
 
-.outline
-/* .outline2  */ {
-  flex-basis: 350px;
+.outline,
+.outline2 {
+  /* flex-basis: 350px; */
   outline: solid 3px #306b34;
-  margin-left: -360px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  /* margin-left: -360px; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 0px; */
 
-  width: 375px;
-  height: 390px;
+  /* width: 375px; */
+  /* height: 390px; */
 }
 
-.mainImage
-/* .mainImage2  */ {
-  height: 95%;
-  width: auto;
+.mainImage,
+.mainImage2 {
+  outline: solid 3px red;
+  /* height: 95%; */
+  /* width: auto; */
 }
