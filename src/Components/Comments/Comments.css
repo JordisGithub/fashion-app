@@ -1,8 +1,0 @@
-/* <div className="container">
-<div className="columns">
-  <div className="column is-half is-offset-one-quarter">
-    <CommentBox handleAddComment={this.handleAddComment} />
-    <Comments comments={this.state.comments} />
-  </div>
-</div>
-</div> */

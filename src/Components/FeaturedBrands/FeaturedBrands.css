@@ -55,10 +55,10 @@
 }
 
 .blogImage {
-  /* height: 250px;
+  height: 250px;
   width: 250px;
   display: block;
-  margin: auto; */
+  margin: auto;
   /* border: 2px solid brown; */
 }
 
@@ -73,14 +73,14 @@
 /* Button at the bottom of photo grid */
 .buttonDiv {
   /* border: 2px solid brown; */
-  /* width: 1015px;
+  width: 100px;
   height: 110px;
-  padding-top: 50px; */
+  padding-top: 50px;
 }
 
 .blogGrid button {
-  display: block;
-  margin: auto auto;
+  /* display: block; */
+  margin: auto;
   font-family: brandon-grotesque, sans-serif;
   font-weight: 800;
 }

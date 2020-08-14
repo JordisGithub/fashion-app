@@ -1,28 +1,13 @@
 import React, { Component } from 'react';
-// import { Route, NavLink, HashRouter, Link } from "react-router-dom";
 import '../Components/App.css'
+// import { Route, NavLink, HashRouter, Link } from "react-router-dom";
 
-//Static components
+//Components
 import Nav from './Nav/Nav'
 import HeroSection from './HeroSection/HeroSection'
 import FeauturedBlog from './FeaturedBlog/FeauturedBlog'
-
-
-
+import FeaturedBrands from './FeaturedBrands/FeaturedBrands'
 import Footer from '../Components/Footer/Footer'
-
-//pages
-import Contact from "./Pages/Contact";
-
-
-// Comment Box
-import CommentBox from '../Components/Comments/CommentBox';
-import Comments from '../Components/Comments/Comments';
-
-// Blog Grid 
-import BlogGrid from './BlogGrid/BlogGrid'
-import './BlogGrid/BlogGrid.css'
-
 
 //Images
 import mainPicture from '../Images/Fast-Fashion-Cancelled.png'
@@ -33,17 +18,10 @@ import blogPicture3 from '../Images/Pour-Les-Femmes.png'
 import blogPicture4 from '../Images/Gabriela-Hearst.png'
 
 
-
-
-
 class App extends Component {
-
-
-
   render() {
     return (
       <section className="section">
-
 
         <Nav />
         <HeroSection />
@@ -57,7 +35,7 @@ class App extends Component {
           title2={'FASHION SWAPS ARE THE NEW BRUCH'}
           blogSummary2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
         />
-        <BlogGrid
+        <FeaturedBrands
           blogPicture={blogPicture}
           title={'Reformation'}
           blogPicture2={blogPicture2}
@@ -75,6 +53,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-//API Comments code per Ably documentation 
