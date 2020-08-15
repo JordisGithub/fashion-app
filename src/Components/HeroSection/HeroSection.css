@@ -45,7 +45,7 @@
     height: 400px;
     background-position: -80px -65px;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 67px);
     /* width: 100vw; */
   }
 
