@@ -15,7 +15,12 @@ export default class FeaturedBrands extends Component {
             <div className='blogGridTitleHighlight'></div>
           </div>
 
-          <div className='blogGrid'>
+
+
+
+          <div className="brands-wrapper">
+
+            {/* <div className='blogGrid'> */}
             {/* ============================
             ============Item1===========
             ============================ */}
@@ -44,8 +49,38 @@ export default class FeaturedBrands extends Component {
               <img className='blogImage' src={this.props.blogPicture4} />
               <h1>{this.props.title4}</h1>
             </div>
+            {/* ============================
+            ============Item5===========
+            ============================ */}
+            <div className='indBlogGrid'>
+              <img className='blogImage' src={this.props.blogPicture} />
+              <h1>{this.props.title}</h1>
+            </div>
+            {/* ============================
+            ============Item6===========
+            ============================*/}
+            <div className='indBlogGrid'>
+              <img className='blogImage' src={this.props.blogPicture2} />
+              <h1>{this.props.title2}</h1>
+            </div>
+            {/* ============================
+            ============Item7===========
+            ============================*/}
+            <div className='indBlogGrid'>
+              <img className='blogImage' src={this.props.blogPicture3} />
+              <h1>{this.props.title3}</h1>
+            </div >
+            {/* ============================
+            ============Item8===========
+            ============================*/}
+            <div className='indBlogGrid'>
+              <img className='blogImage' src={this.props.blogPicture4} />
+              <h1>{this.props.title4}</h1>
+            </div>
+
           </div>
 
+          {/* </div> */}
         </div>
 
         {/* <div className='buttonDiv'>

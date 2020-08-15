@@ -153,7 +153,7 @@
 /* ====================================== */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) /* and (-webkit-min-device-pixel-ratio: 3) */ {
   .gridHeadingDivider {
     /* border: 5px solid blue; */
     padding: 0;
@@ -180,6 +180,7 @@
   }
 
   .featured-blog-section {
+    /* border: solid 3pt greenyellow; */
     padding: 0px;
   }
 
@@ -200,12 +201,6 @@
   .mainImage2 {
     height: 300px;
     width: 300px;
-  }
-
-  .mainImage {
-    /* margin-top: -18px; */
-    /* grid-column-start: 1;
-    grid-column-end: 14; */
   }
 
   .mainImage2 {
@@ -255,11 +250,6 @@
     grid-column-end: 15;
     margin-top: 20px;
   }
-
-  /* .blogSummary {
-    grid-column-start: 16;
-    grid-column-end: 26;
-  } */
 
   .blogSummary2 {
     padding: 0px;

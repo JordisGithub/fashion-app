@@ -42,11 +42,14 @@
 }
 
 /* Picture grid section */
-.blogGrid {
+
+.brands-wrapper {
   /* border: solid red 3pt; */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(8, 300px);
+
+  grid-column-gap: 10px;
+  /* width: max-content; */
 
   overflow: scroll;
   width: 95%;
@@ -56,14 +59,14 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   vertical-align: auto;
-
-  margin-top: 30px;
 }
 
 .indBlogGrid {
   /* border: 2px solid brown; */
-  display: flex;
-  flex-flow: column;
+  /* display: flex;
+  flex-flow: column; */
+  display: grid;
+  /* grid-template-columns: 160px; */
 }
 
 .blogImage {
@@ -72,9 +75,80 @@
 }
 
 .indBlogGrid h1 {
+  /* border: 2px solid greenyellow; */
   font-family: brandon-grotesque, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 24px;
   text-align: center;
+  width: 300px;
+}
+
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+/* ----------- iPhone X ----------- */
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) /* and (-webkit-min-device-pixel-ratio: 3) */ {
+  .FeaturedBrands-wrapper {
+    padding-top: 0px;
+    display: grid;
+  }
+
+  /* Title section above pic */
+  .blogGridTitle {
+    width: 95%;
+    height: auto;
+    /* border: solid red 3pt; */
+  }
+
+  .blogGridTitle h1 {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+
+  .blogGridTitle h2 {
+    font-size: 16px;
+    margin-top: -80px;
+  }
+
+  .blogGridTitleHighlight {
+    /* background-color: white;
+    margin-left: auto; */
+    margin-top: -33px;
+    height: 17px;
+    width: 195px;
+  }
+
+  /* Picture grid section */
+  .brands-wrapper {
+    /* border: solid red 3pt; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
+  }
+
+  .indBlogGrid {
+    /* border: 2px solid brown; */
+    display: grid;
+  }
+
+  .blogImage {
+    height: 150px;
+    width: 150px;
+  }
+
+  .indBlogGrid h1 {
+    /* border: 2px solid greenyellow; */
+    font-size: 14px;
+    width: 150px;
+  }
 }
