@@ -11,15 +11,15 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
 
-        <p>Privacy</p>
+        {/* <p>Privacy</p> */}
 
-        <ul>
+        {/* <ul>
           <div classname='footerlinks'>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">About</a></li>
           </div>
-        </ul >
+        </ul > */}
 
         <ul>
           <div classname='footerImglinks'>
