@@ -177,12 +177,9 @@
   .individual-blog-wrapper {
     /* border: solid 3pt greenyellow; */
     width: 100%;
-    /* margin-top: auto; */
   }
 
   .featured-blog-section {
-    /* display: flex;
-    flex-direction: column; */
     padding: 0px;
   }
 
@@ -193,30 +190,27 @@
     grid-template-rows: repeat(16, 25px);
     margin-top: 40px;
     width: 100%;
-    /* display: grid;
-    width: 800px; */
   }
 
   .featuredBlogContainer2 {
-    /* float: right; */
+    margin-top: 0px;
   }
 
   .mainImage,
   .mainImage2 {
-    /* display: grid; */
     height: 300px;
     width: 300px;
   }
 
   .mainImage {
-    margin-top: -18px;
+    /* margin-top: -18px; */
     /* grid-column-start: 1;
     grid-column-end: 14; */
   }
 
   .mainImage2 {
-    /* grid-column-start: 9;
-    grid-column-end: 39; */
+    grid-column-start: 1;
+    grid-column-end: 14;
   }
 
   .outline,
@@ -226,78 +220,52 @@
     outline: solid 1px #306b34;
     height: 300px;
     width: 300px;
-  }
-
-  .outline {
-    margin-top: -30px;
+    margin-top: -15px;
     margin-left: -12px;
     grid-column-start: 2;
     grid-column-end: 15;
   }
 
-  .outline2 {
-    /* grid-column-start: 8;
-    grid-column-end: 29; */
-  }
-
   .featuredBlogTitle,
   .featuredBlogTitle2 {
-    /* background-color: #f9cfbc;
-    color: #19381f;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding: 0 30px;
-    grid-row-end: 10; */
     grid-row-start: 1;
     grid-row-end: 3;
     padding: 0;
     height: 37px;
     font-size: 18px;
-    width: 270px;
-  }
-
-  .featuredBlogTitle {
     grid-column-start: 1;
     grid-column-end: 18;
+    width: 250px;
+    height: 53px;
+    padding: 5px;
   }
 
   .featuredBlogTitle2 {
-    /* grid-column-start: 1;
-    grid-column-end: 26;
-    margin-left: -120px; */
+    margin-left: 0px;
   }
 
   .blogSummary,
   .blogSummary2 {
-    /* outline: solid 3px purple; */
-    /* font-family: kazimir, sans-serif;
-    height: 125px;
-    text-align: justify;
-    font-family: kazimir, sans-serif;
-    font-weight: 50;
-    font-style: italic;
-    color: #7f7f7f;
-    padding-top: 10px; */
     width: 270px;
     grid-row-start: 15;
     grid-row-end: 18;
     font-size: 12px;
     text-align: justify;
-  }
-
-  .blogSummary {
     grid-column-start: 2;
     grid-column-end: 15;
+    margin-top: 20px;
   }
 
+  /* .blogSummary {
+    grid-column-start: 16;
+    grid-column-end: 26;
+  } */
+
   .blogSummary2 {
-    /* margin-top: 10px;
-    grid-column-start: 1; */
-    /* grid-column-end: 20; */
-    /* grid-column-end: 26;
-    margin-left: -130px;
-    padding: 0px 30px; */
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    /* outline: solid 1px black; */
   }
 }
 /* Portrait */
