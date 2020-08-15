@@ -153,7 +153,155 @@
 /* ====================================== */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
+  .gridHeadingDivider {
+  }
+
+  .textDivider {
+    border: 5px solid blue;
+    /* background-color: #fae8eb;
+    padding-top: 50px;
+    font-family: kazimir, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #36413e; */
+    width: 300px;
+    margin: auto;
+  }
+
+  .textDividertag {
+    /* border: 5px solid red; */
+    /* background-color: white;
+    padding: 0px 65px 0 20px;
+    font-family: kazimir, sans-serif;
+    font-weight: 450;
+    font-style: italic;
+    color: #36413e;
+    width: 380px;
+    margin: auto;
+    font-size: 40px; */
+  }
+
+  .individual-blog-wrapper {
+    /* border: solid 3pt greenyellow; */
+    /* width: 90%;
+    margin: auto; */
+  }
+
+  .featured-blog-section {
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 50px; */
+  }
+
+  .featuredBlogContainer,
+  .featuredBlogContainer2 {
+    /* outline: solid 1px black; */
+    /* display: grid;
+    grid-template-columns: repeat(21, 38px);
+    grid-template-rows: repeat(25, 25px);
+    margin-top: 100px;
+    width: 800px; */
+  }
+
+  .featuredBlogContainer2 {
+    /* float: right; */
+  }
+
+  .mainImage,
+  .mainImage2 {
+    /* display: grid; */
+    /* height: 500px;
+    width: 500px; */
+  }
+
+  .mainImage {
+    /* grid-column-start: 1;
+    grid-column-end: 14; */
+  }
+
+  .mainImage2 {
+    /* grid-column-start: 9;
+    grid-column-end: 39; */
+  }
+
+  .outline,
+  .outline2 {
+    /* outline: solid 3px #306b34;
+    height: 500px;
+    width: 500px;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+  }
+
+  .outline {
+    /* grid-column-start: 2;
+    grid-column-end: 15; */
+  }
+
+  .outline2 {
+    /* grid-column-start: 8;
+    grid-column-end: 29; */
+  }
+
+  .featuredBlogTitle,
+  .featuredBlogTitle2 {
+    /* background-color: #f9cfbc;
+    color: #19381f;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    height: 120px;
+    text-align: center;
+    padding: 0 30px;
+    width: 420px;
+    grid-row-start: 3;
+    grid-row-end: 10; */
+  }
+
+  .featuredBlogTitle {
+    /* grid-column-start: 13;
+    grid-column-end: 18; */
+  }
+
+  .featuredBlogTitle2 {
+    /* grid-column-start: 1;
+    grid-column-end: 26;
+    margin-left: -120px; */
+  }
+
+  .blogSummary,
+  .blogSummary2 {
+    /* outline: solid 3px purple; */
+    /* font-family: kazimir, sans-serif;
+    height: 125px;
+    text-align: justify;
+    font-family: kazimir, sans-serif;
+    font-weight: 50;
+    font-style: italic;
+    font-size: 16px;
+    color: #7f7f7f;
+    width: 350px;
+    grid-row-start: 8;
+    grid-row-end: 12;
+    padding-top: 10px; */
+  }
+
+  .blogSummary {
+    /* grid-column-start: 16;
+    grid-column-end: 26; */
+  }
+
+  .blogSummary2 {
+    /* margin-top: 10px;
+    grid-column-start: 1; */
+    /* grid-column-end: 20; */
+    /* grid-column-end: 26;
+    margin-left: -130px;
+    padding: 0px 30px; */
+  }
 }
 /* Portrait */
 /* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -270,14 +418,14 @@
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-}
+/* @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+} */
 
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-}
+/* @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+} */
 
 /* ====================================== */
 /* ====================================== */
@@ -288,17 +436,17 @@
 /* ====================================== */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-}
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+} */
 
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-}
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+} */
 
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-}
+/* @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+} */

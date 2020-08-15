@@ -35,3 +35,50 @@
 .navbar a:hover {
   color: black;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
+  .navbar {
+    padding: 0;
+    display: grid;
+  }
+
+  .navbar h1 {
+    /* border: red 2px solid; */
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .navbar ul {
+    /* border: red 2px solid; */
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+
+    /* list-style: none; */
+    margin-left: -40px;
+  }
+
+  .navbar li {
+    /* justify-content: flex-end; */
+    /* float: right; */
+    /* font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase; */
+    padding: 0px;
+    font-size: 12px;
+    margin-top: 0px;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+  }
+
+  /* .navbar a {
+    color: #306b34;
+  } */
+
+  /* .navbar a:hover {
+    color: black;
+  } */
+}
