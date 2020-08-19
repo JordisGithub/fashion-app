@@ -2,6 +2,8 @@
 
 <img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/readmeCover.png" width="900">
 
+Demo: https://sustainablychicfashion.com/
+
 ## Table of Contents
 
 - [Project Description](#project-description)
