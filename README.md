@@ -2,7 +2,7 @@
 
 <img src="https://github.com/JordisGithub/fashion-app/blob/master/src/Images/readmeCover.png" width="900">
 
-Demo: https://sustainablychicfashion.com/
+Demo: https://sustainablefashionnetwork.com/
 
 ## Table of Contents
 
