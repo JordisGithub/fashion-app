@@ -93,7 +93,7 @@
 /* ====================================== */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 833px) /* and (-webkit-min-device-pixel-ratio: 3) */ {
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
   .FeaturedBrands-wrapper {
     padding-top: 0px;
     display: grid;
