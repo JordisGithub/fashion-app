@@ -16,9 +16,9 @@ export default class Nav extends Component {
 
           <ul>
             {/* <li><a href="#"> <img src={SearchButton} alt="" /></a></li> */}
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
             <li><NavLink to="/Contact">Contact</NavLink></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Home</a></li>
           </ul >
 
           {/* <Route path="/Contact" component={Contact} /> */}
